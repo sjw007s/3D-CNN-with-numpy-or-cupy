@@ -1,7 +1,7 @@
 # 3D-CNN with numpy or cupy
 3D-CNN with numpy or cupy // 3D-CNN without frameworks.
 
-This is a code that implements the 3D-CNN in the paper below with numpy or cupy. Ji, Shuiwang, et al. "3D convolutional neural networks for human action recognition." IEEE transactions on pattern analysis and machine intelligence 35.1 (2012): 221-231. TensorFlow and Pytorch can implement the code, but it makes all the arrays to see how the transformer works in detail. It reproduces weight generation, forward propagation, and back propagation. It was confirmed that the code work correctly. there are no data. I think it will be useful for those who want to acquire the ability to implement artificial neural networks without the frameworks. The code has been transformed using The code has been transformed using https://github.com/KONANtechnology/Academy.ALZZA.
+This is a code that implements the 3D-CNN in the paper below with numpy or cupy. Ji, Shuiwang, et al. "3D convolutional neural networks for human action recognition." IEEE transactions on pattern analysis and machine intelligence 35.1 (2012): 221-231. TensorFlow and Pytorch can implement the code, but it makes all the arrays to see how the 3D-CNN works in detail. It reproduces weight generation, forward propagation, and back propagation. It was confirmed that the code work correctly. there are no data. I think it will be useful for those who want to acquire the ability to implement artificial neural networks without the frameworks. The code has been transformed using The code has been transformed using https://github.com/KONANtechnology/Academy.ALZZA.
 E-mail: sjw007s@korea.ac.kr
 
 How to run: Run the last code in chap12/rnn_ext_test.ipynb.
