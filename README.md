@@ -9,6 +9,7 @@ This code is set up with the cupy library to compute numpy on the GPU.
 To run it with cpu
 1. Remove 'import cupy as np' from 'chap01/abalone.ipynb' and enable 'import numpy as np'.
 2. Remove 'import cupy as np' from 'chap05/mathutil.ipynb' and enable 'import numpy as np'.
+3. Remove 'with np.cuda.Device(0):' in chap15/NLP_result.ipynb.
 
 Unnecessary codes are inserted in the middle.
 Unnecessary operations may be performed.
@@ -23,6 +24,7 @@ Code is not optimized for computational speed.
 cpu로 돌리기 위해서는 
 1. 'chap01/abalone.ipynb' 에서 'import cupy as np' 를 삭제하고 'import numpy as np'를 활성화하세요.
 2. 'chap05/mathutil.ipynb' 에서 'import cupy as np' 를 삭제하고 'import numpy as np'를 활성화하세요.
+3. 'with np.cuda.Device(0):'를 제거하세요.
 
 필요없는 코드들이 중간에 삽입되어있습니다.
 필요없는 연산이 진행될 수 있습니다.
